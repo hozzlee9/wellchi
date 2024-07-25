@@ -1,0 +1,9 @@
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:144:10:BSP_GetVersion	0	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:159:6:BSP_LED_Init	48	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:185:6:BSP_LED_DeInit	16	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:202:6:BSP_LED_On	0	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:213:6:BSP_LED_Off	0	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:224:6:BSP_LED_Toggle	0	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:247:6:BSP_PB_Init	32	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:284:6:BSP_PB_DeInit	8	static
+C:/Users/slaye/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c:299:10:BSP_PB_GetState	8	static
