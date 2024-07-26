@@ -137,7 +137,6 @@ int main(void)
   }
 
 
-
 #define FREQ_HIGH	100
 #define FREQ_LOW	500
 #define LIMIT_LOW	3
@@ -212,7 +211,7 @@ int main(void)
 	  LastButtonState = CurrentButtonState;
   }
 
-#else
+
 // 예제 3
 // LED ON 상태에서 B1 버튼을 누르면 (3초 뒤에 타이머를 사용하여) 100ms 주기로 LED 깜빡이게 하는 예제
 
@@ -260,7 +259,24 @@ int main(void)
   }
 
 
+#else
 
+#define	B1Pin	GPIO_PIN_13
+#define LEDPin	GPIO_PIN_5
+
+
+  while(1)
+  {
+	  if((GPIOC->IDR & B1Pin) == 0)
+	  {
+		  gTimeDelay = 0;
+		  if((GPIOC->IDR & B1Pin) == 0)
+		  {
+			  HAL_GPIO_TogglePin(GPIOA, LEDPin);
+			  while ((GPIOC->IDR & B1Pin) == 0);
+		  }
+	  }
+  }
 
 #endif
 }
